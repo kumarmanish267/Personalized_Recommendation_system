@@ -250,11 +250,7 @@ Our dataset also contains highly informative and concise product descriptions fo
 
 Using text features along with image features we are able to obtain a mAP@12 performance of 0.016. This is a marginal improvement over the recommendation system using only image features (mAP@12=0.010) and a huge improvement over our mid-term result of mAP@12=0.005. Clearly using content information such as image features and textual features goes a long way! The graph below shows the mAP@k values for various k values comparing both image based and image+text based recommendation system
 
-
-![image_text_results](https://github.com/AdityaAS/Fashion-Recommendation-using-ML/blob/6bdb95db06fb113108ba68bef63505041f8d8413/image_text.png)
 ## Results and Discussion
-
-For our final submission, due to the computational requirement of our current method, we were not able to perform cross validation and then pick the best model. We hope to do a principled model selection / ensemble step as part of the final report.
 
 One of the key takeaways from our final report is the performance boost obtained by using content-based information i.e. product images and product descriptions as part of our recommendation system. We obtain an order of magnitude performance improvement by incorporating rich image and text features using large pre-trained neural network methods.
 
